@@ -1,0 +1,22 @@
+2. Both divs changed in width from 350px to approximately 315px.
+
+3. When both divs are floated right, they move to the far right of the ruler and window.
+div 2 is oriented to the left, and div 1 is oriented to the right.
+
+4. When both divs are floated left they move to the far left of the ruler and window. div 1 is oriented to the left,
+and div 2 is oriented to the right.
+
+5. When the browser window is set to a size less than 600px across, div 2 is cut into by an approximate 50px amount.
+This obstructs the full view of the div 2 box, and covers up text within the div.
+
+6. When testDiv1 is floated right and testDiv2 is floated left, testDiv1 is oriented to the far left of the ruler and
+window, while testDiv2 is floated to the far left of the ruler and window.
+
+7. When testDiv1's width is set to 2000 px, the columns are no longer in the same plane. testDiv1 is horribly
+elongated, to the point where half of the testDiv1 is off the left side of the screen (unreadable,) and testDiv2 is
+thrown down below.
+
+9. When the browser window is resized after setting width percentages, the testDivs resize proportionally to their
+container size (the browser window).
+
+10. 
